@@ -49,8 +49,9 @@
 <section class="fixed-top navigation">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html"><h4>Windou</h4></a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+      <a class="navbar-brand" href="index.html" style="font-weight: 600;">Windou</a>
+      <button class="navbar-toggler border-0" type="button"
+        data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -58,25 +59,25 @@
       <div class="collapse navbar-collapse text-center" id="navbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Trang chủ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="#feature">Feature</a>
+            <a class="nav-link page-scroll" href="index.html#feature">Tính năng</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">Về chúng tôi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service.html">Service</a>
+            <a class="nav-link" href="service.html">Dịch vụ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="#team">Team</a>
+            <a class="nav-link page-scroll" href="index.html#team">Đội ngũ</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link page-scroll" href="index.html#pricing">Gói dịch vụ</a>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Liên hệ</a>
           </li>
         </ul>
         <a href="#" class="btn btn-primary ml-lg-3 primary-shadow">Try Free</a>
@@ -94,7 +95,7 @@
       <div class="col-lg-12 text-center zindex-1">
         <h1 class="mb-3">WINDOU
         </h1>
-        <p style=" text-align: justify;" class="mb-4">Ứng dụng công nghệ kết nối và tích hợp trí tuệ nhân tạo
+        <p class="mb-4">Ứng dụng công nghệ kết nối và tích hợp trí tuệ nhân tạo
           trong quản lí kinh doanh sản phẩm tái chế.<br>
         </p>
         <a target="_blank"
@@ -136,7 +137,7 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-title">Các tính năng</h2>
-        <p style=" text-align: justify;" class="mb-100">Windou cung cấp 1 loạt
+        <p class="mb-100">Windou cung cấp 1 loạt
           các giải phát tiên tiến để hỗ
           trợ
           người dùng</p>
@@ -216,14 +217,14 @@
         </div>
       </div>
       <div class="col-md-5">
-        <h2 class="section-title">ĐỔI MỚI TRONG TÁI CHẾ VÀ SẢN XUẤT CÓ TRÁCH
+        <h2 style=" text-align: justify;" class="section-title">ĐỔI MỚI TRONG TÁI CHẾ VÀ SẢN XUẤT CÓ TRÁCH
           NHIỆM!</h2>
         <p style=" text-align: justify;">WINDOU là ứng dụng thông minh hướng đến
           việc thúc đẩy sự phát triển
           bền vững của ngành tái chế và thương mại hóa tín chỉ carbon toàn cầu.
           Sử dụng công nghệ AI và mạng lưới kết nối toàn cầu, WINDOU hướng tới
           việc giảm khoảng cách giữa sản xuất, tiêu thụ và tái chế, hướng đến
-          một tương lai bền vững hơn.
+          một tương lai bền vững.
         </p>
       </div>
     </div>
@@ -242,12 +243,23 @@
 <!-- /marketing -->
 
 <!-- service -->
+<style>
+  .service li {
+      display: flex;
+      align-items: center;
+  }
+
+  .service-list li i {
+      margin-right: 10px;
+  }
+</style>
 <section class="section-lg service">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-md-5 order-2 order-md-1">
         <h2 class="section-title">Powerful Layout From Top To Bottom</h2>
-        <p style=" text-align: justify;" class="mb-4">Với thị trường tiềm năng trong kinh doanh bền vững gắn
+        <p style=" text-align: justify;" class="mb-4">Với thị trường tiềm năng
+          trong kinh doanh bền vững gắn
           liền với sản xuất và tiêu dùng có trách nhiệm, WINDOU hứa hẹn sẽ trở
           thành cầu nối cho việc sử dụng, tái chế rác thải có trách nhiệm và
           khoa học trong tương lai. Ngoài ra, giải pháp của chúng tôi còn tác
@@ -256,11 +268,21 @@
           dân toàn cầu, đặc biệt là thế hệ trẻ.
         </p>
         <ul class="pl-0 service-list">
-          <li><i class="ti-layout-tab-window text-purple"></i>Responsive on any
-            device</li>
-          <li><i class="ti-layout-placeholder text-purple"></i>Very easy to
-            customize</li>
-          <li><i class="ti-support text-purple"></i>Effective support</li>
+          <li><p style="text-align: justify;"><i
+                class="ti-layout-tab-window text-purple"></i>Nâng cao
+              nhận
+              thức
+              và khả năng phân loại rác thải có thể tái chế.</p></li>
+          <li>
+            <p style="text-align: justify;">
+              <i class="ti-layout-placeholder text-purple"></i>Tạo môi
+              trường
+              kết nối thông minh cho chuỗi cung ứng rác thải tái chế.</p>
+          </li>
+          <li><p style="text-align: justify;"><i
+                class="ti-support text-purple"></i>Tạo môi trường trao đổi
+              tín
+              chỉ carbon và đóng góp cho các hoạt động cộng đồng.</p></li>
         </ul>
       </div>
       <div class="col-md-7 order-1 order-md-2">
@@ -285,9 +307,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-title">Our Team</h2>
-        <p style=" text-align: justify;" class="mb-100">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>
-          fugiat nulla pariatur. Excepteur sint occaecat </p>
+        <h2 class="section-title">Windou team</h2>
+        <p  class="mb-100">Windou được hỗ trợ và
+          đồng hành của đội ngũ chất
+          lượng</p>
       </div>
     </div>
     <div class="col-10 mx-auto">
@@ -296,79 +319,157 @@
         <div class="team-member">
           <div class="d-flex mb-4">
             <div class="mr-3">
-              <img class="rounded-circle img-fluid" src="images/team/team-1.jpg" alt="team-member">
+              <img class="rounded-circle img-fluid" src="images/team/team-1.jpg"
+                alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>Becroft</h4>
-              <h6 class="text-color">web designer</h6>
+              <h4>Nguyễn Đình Phong</h4>
+              <h6 class="text-color">Founder, Operations</h6>
             </div>
           </div>
-          <p style=" text-align: justify;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. S eparated they</p>
+          <p style=" text-align: justify;">
+            Student at Vin University
+          </p>
+          <p style=" text-align: justify;">
+            Founder of Scientific project of electric battery fire-fighting
+            equipment containing lithium
+          </p>
+          <p style=" text-align: justify;">
+            Top 1, Solana Customer Hack 11 by Super team vietnam - 2024
+          </p>
         </div>
         <!-- team-member -->
         <div class="team-member">
           <div class="d-flex mb-4">
             <div class="mr-3">
-              <img class="rounded-circle img-fluid" src="images/team/team-2.jpg" alt="team-member">
+              <img class="rounded-circle img-fluid" src="images/team/team-3.jpg"
+                alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>John Doe</h4>
-              <h6 class="text-color">web developer</h6>
+              <h4>Trương Khánh Linh</h4>
+              <h6 class="text-color">Designer</h6>
             </div>
           </div>
-          <p style=" text-align: justify;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. S eparated they</p>
+          <p style=" text-align: justify;">
+            Student at Vin University
+          </p>
+          <p style=" text-align: justify;">
+            Tech Lead of Google Developer Student Clubs in VinUniversity
+          </p>
+          <p style=" text-align: justify;">
+            Top 1, Ideathon Web3 Space - 2023
+          </p>
         </div>
         <!-- team-member -->
         <div class="team-member">
           <div class="d-flex mb-4">
             <div class="mr-3">
-              <img class="rounded-circle img-fluid" src="images/team/team-3.jpg" alt="team-member">
+              <img class="rounded-circle img-fluid"
+                src="images/team/ManhHoDinhSpring.jpg" width="80" height="80"
+                alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>Erik Ligas</h4>
-              <h6 class="text-color">Programmer</h6>
+              <h4>Hồ Đình Mạnh</h4>
+              <h6 class="text-color">Software Engineering</h6>
             </div>
           </div>
-          <p style=" text-align: justify;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-            the blind texts. S eparated they</p>
+          <p style=" text-align: justify;">
+            Software Engineering Student at University of Information
+            Technology,
+            VNU-HCM
+          </p>
+          <p style=" text-align: justify;">
+            AI Researcher at UIT Together - AI research group
+          </p>
+          <p style=" text-align: justify;">
+            Software Engineering at Danieli Group
+          </p>
         </div>
         <!-- team-member -->
         <div class="team-member">
           <div class="d-flex mb-4">
             <div class="mr-3">
-              <img class="rounded-circle img-fluid" src="images/team/team-1.jpg" alt="team-member">
+              <img class="rounded-circle img-fluid" src="images/team/team-3.jpg"
+                alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>Erik Ligas</h4>
-              <h6 class="text-color">Programmer</h6>
+              <h4>Nguyễn Thùy Trang</h4>
+              <h6 class="text-color">Marketing</h6>
             </div>
           </div>
-          <p style=" text-align: justify;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-            the blind texts. S eparated they</p>
+          <p style=" text-align: justify;">
+            Student at Foreign Trade University – FTU
+          </p>
+          <p style=" text-align: justify;">
+            Lead of Human Resources and Marketing Carbon Credit trading floor
+          </p>
+          <p style=" text-align: justify;">
+            Top 9 National Technology Startup Idea Competition - 2023
+          </p>
         </div>
         <!-- team-member -->
         <div class="team-member">
           <div class="d-flex mb-4">
             <div class="mr-3">
-              <img class="rounded-circle img-fluid" src="images/team/team-2.jpg" alt="team-member">
+              <img class="rounded-circle img-fluid" src="images/team/team-2.jpg"
+                alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>John Doe</h4>
-              <h6 class="text-color">web developer</h6>
+              <h4>Hoàng Anh Minh</h4>
+              <h6 class="text-color">AI Technology</h6>
             </div>
           </div>
-          <p style=" text-align: justify;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. S eparated they</p>
+          <p style=" text-align: justify;">
+            Student at Vin University
+          </p>
+          <p style=" text-align: justify;"></p>
+          <p style=" text-align: justify;">
+            Software Engineer at IT VinUniversity
+          </p>
+          <p style=" text-align: justify;">
+            Runner-up, Hanoi University of Science and Technology (HUST), AI
+            challenge competition
+          </p>
+        </div>
+        <!-- team-member -->
+        <div class="team-member">
+          <div class="d-flex mb-4">
+            <div class="mr-3">
+              <img class="rounded-circle img-fluid" src="images/team/team-2.jpg"
+                alt="team-member">
+            </div>
+            <div class="align-self-center">
+              <h4>Nguyễn Minh Khoa</h4>
+              <h6 class="text-color">Business</h6>
+            </div>
+          </div>
+          <p style=" text-align: justify;">
+            Student at Vin University
+          </p>
+          <p style=" text-align: justify;"></p>
+          <p style=" text-align: justify;">
+            Founder EcoFunds - SolarAid Blockchain
+          </p>
+          <p style=" text-align: justify;">
+            Initiative Top 2 National, CodeRace Competition by Bosch Vietnam -
+            2023
+          </p>
         </div>
       </div>
     </div>
   </div>
   <!-- backgound image -->
-  <img src="images/backgrounds/team-bg.png" alt="team-bg" class="img-fluid team-bg">
+  <img src="images/backgrounds/team-bg.png" alt="team-bg"
+    class="img-fluid team-bg">
   <!-- background shapes -->
-  <img class="team-bg-shape-1 up-down-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape">
-  <img class="team-bg-shape-2 left-right-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape">
-  <img class="team-bg-shape-3 left-right-animation" src="images/background-shape/team-bg-triangle.png" alt="background-shape">
-  <img class="team-bg-shape-4 up-down-animation img-fluid" src="images/background-shape/team-bg-dots.png" alt="background-shape">
+  <img class="team-bg-shape-1 up-down-animation"
+    src="images/background-shape/seo-ball-1.png" alt="background-shape">
+  <img class="team-bg-shape-2 left-right-animation"
+    src="images/background-shape/seo-ball-1.png" alt="background-shape">
+  <img class="team-bg-shape-3 left-right-animation"
+    src="images/background-shape/team-bg-triangle.png" alt="background-shape">
+  <img class="team-bg-shape-4 up-down-animation img-fluid"
+    src="images/background-shape/team-bg-dots.png" alt="background-shape">
 </section>
 <!-- /team -->
 
@@ -378,7 +479,7 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-title">Our Pricing</h2>
-        <p style=" text-align: justify;" class="mb-50">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br>
+        <p class="mb-50">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu <br>
           fugiat nulla pariatur. Excepteur sint occaecat </p>
       </div>
       <div class="col-lg-10 mx-auto">
@@ -388,7 +489,7 @@
             <div class="rounded text-center pricing-table table-1">
               <h3>Free</h3>
               <h1><span>$</span>00</h1>
-              <p style=" text-align: justify;">Far far away, behind the
+              <p>Far far away, behind the
                 wordmountains, far from the
                 countries Vokalia and
               </p>
@@ -400,7 +501,7 @@
             <div class="rounded text-center pricing-table table-2">
               <h3>Standard</h3>
               <h1><span>$</span>75</h1>
-              <p style=" text-align: justify;">Far far away, behind the
+              <p>Far far away, behind the
                 wordmountains, far from the
                 countries Vokalia and
               </p>
@@ -412,7 +513,7 @@
             <div class="rounded text-center pricing-table table-3">
               <h3>Premium</h3>
               <h1><span>$</span>99</h1>
-              <p style=" text-align: justify;">Far far away, behind the
+              <p>Far far away, behind the
                 wordmountains, far from the
                 countries Vokalia and
               </p>
@@ -455,7 +556,7 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Subscribe to our newsletter</h2>
-        <p style=" text-align: justify;" class="mb-5">Receive updates, news and deals</p>
+        <p class="mb-5">Receive updates, news and deals</p>
       </div>
       <div class="col-lg-8 col-sm-10 col-12 mx-auto">
         <form action="#">
@@ -473,31 +574,36 @@
 <!-- /newsletter -->
 
 <!-- footer -->
-<footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
+<footer class="footer-section footer"
+  style="background-image: url(images/backgrounds/footer-bg.png);">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
         <!-- logo -->
-        <a href="index.html">
-          <img class="img-fluid" src="images/logo.png" alt="logo">
-        </a>
+        <a class="navbar-brand" href="index.html"
+          style="font-weight: 600;">Windou</a>
       </div>
       <!-- footer menu -->
       <nav class="col-lg-8 align-self-center mb-5">
         <ul class="list-inline text-lg-right text-center footer-menu">
-          <li class="list-inline-item active"><a href="index.html">Home</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="#feature">Feature</a></li>
-          <li class="list-inline-item"><a href="about.html">About</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="#team">Team</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="#pricing">Pricing</a></li>
-          <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+          <li class="list-inline-item active"><a href="index.html">Trang chủ</a></li>
+          <li class="list-inline-item"><a class="page-scroll"
+              href="index.html#feature">Tính năng</a></li>
+          <li class="list-inline-item"><a href="about.html">Về chúng tôi</a></li>
+          <li class="list-inline-item"><a class="page-scroll"
+              href="index.html#team">Đội ngũ</a></li>
+          <!-- <li class="list-inline-item"><a class="page-scroll"
+              href="#pricing">Gói dịch vụ</a></li> -->
+          <li class="list-inline-item"><a href="contact.html">Liên hệ</a></li>
         </ul>
       </nav>
       <!-- footer social icon -->
       <nav class="col-12">
         <ul class="list-inline text-lg-right text-center social-icon">
           <li class="list-inline-item">
-            <a class="facebook" href="https://www.facebook.com/profile.php?id=61558387602529"><i class="ti-facebook"></i></a>
+            <a class="facebook"
+              href="https://www.facebook.com/profile.php?id=61558387602529"><i
+                class="ti-facebook"></i></a>
           </li>
           <li class="list-inline-item">
             <a class="twitter" href="#"><i class="ti-instagram"></i></a>
@@ -506,7 +612,9 @@
             <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
           </li>
           <li class="list-inline-item">
-            <a class="black" href="https://play.google.com/store/apps/details?id=com.windou.windou"><i class="ti-android"></i></a>
+            <a class="black"
+              href="https://play.google.com/store/apps/details?id=com.windou.windou"><i
+                class="ti-android"></i></a>
           </li>
         </ul>
       </nav>
